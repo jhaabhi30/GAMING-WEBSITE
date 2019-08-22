@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FAQ</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+    <script src="js/jquery-latest.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+</head>
+	<body>
+			<header class="banner2">
+				<nav class="navbar fixed-top navbar-expand-lg">
+							  <a class="navbar-brand" href="#"><img src="images/logo2.png"></a>
+							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+							    <span class="navbar-toggler-icon"></span>
+							  </button>
+						  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+							    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 container">
+							      <li class="nav-item active">
+							        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="about.html">About</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link " href="contacts.html">Contact Us</a>
+							      </li>
+							  
+							      <li class="nav-item">
+							        <a class="nav-link " href="gallery.html">Gallery</a>
+							      </li>
+							       <li class="nav-item">
+							        <a class="nav-link " href="faq.html">FAQ</a>
+							      </li>
+							       <li class="nav-item">
+							        <a class="nav-link " href="video.html">Videos</a>
+							      </li>
+							        <li class="nav-item">
+							        <a class="nav-link " href="price.html">Price</a>
+							      </li>
+							        <li class="nav-item">
+							        <a class="nav-link " href="match.html">Matches</a>
+							      </li>  <li class="nav-item">
+					       			 <a class="nav-link " href="login.html">Log-In</a>
+					     			 </li>
+
+							    </ul>
+						  </div>
+				</nav>
+					<div class="bann">
+						<div class="container">
+							<p  class="wwwg">Welcome to WorldPandaria</p>
+							<p style="text-align: center;" class="moto-text_system_5">Game FAQ<br></p>
+						</div>
+					</div>
+			</header>
+
+		<div class="faq1">
+				<div class="container">
+					<button class="accordion">What is WorldPandaria?</button>
+					<div class="panel">
+					  <p class="moto-text_system_101">We are the top server of World of Warcraft with the biggest online audience.</p>
+					</div>
+
+					<button class="accordion">Are you an official server?</button>
+					<div class="panel">
+					  <p class="moto-text_system_101">Yes, our server is registered officially worldwide.</p>
+					</div>
+
+					<button class="accordion">Can I migrate from other private servers?</button>
+					<div class="panel">
+					 <p class="moto-text_system_101">Sure, you can contact us to learn all the details.</p>
+					</div>
+					<button class="accordion">How can I recover my account?</button>
+					<div class="panel">
+					 <p class="moto-text_system_101">Bind your account with your cell phone number to save your game progress.</p>
+					</div>
+					<button class="accordion">How can I change my account’s email?</button>
+					<div class="panel">
+					 <p class="moto-text_system_101">To do this, get in touch with one of our support managers.</p>
+					</div>
+					<button class="accordion">Why am I banned?</button>
+					<div class="panel">
+					 <p class="moto-text_system_101">Sure, you can contact us to learn all the details.</p>
+				</div>
+				<script>
+					var acc = document.getElementsByClassName("accordion");
+					var i;
+
+					for (i = 0; i < acc.length; i++) {
+					  acc[i].addEventListener("click", function() {
+					    this.classList.toggle("active");
+					    var panel = this.nextElementSibling;
+					    if (panel.style.maxHeight){
+					      panel.style.maxHeight = null;
+					    } else {
+					      panel.style.maxHeight = panel.scrollHeight + "px";
+					    } 
+					  });
+					}
+				</script>
+		</div>
+		<footer>
+						<div class="foot">
+							<div class="container">
+								<div class="lastlogo">
+									<a href="index.html"><img  src="images/logo.png"></a>
+								</div>
+								<div class="icons">
+									<ul>
+											<li class="rounded-circle">
+												<a href="www.facebook.com">
+												<i class=" ic fab fa-facebook-f"></i></a>
+											</li>	
+											
+											<li class="rounded-circle">
+												<a href="www.facebook.com">
+														<i class=" ic fab fa-twitter"></i>
+												</a>
+											</li>
+												
+											<li class="rounded-circle">
+												<a href="www.facebook.com">
+														<i class=" ic fab fa-instagram"></i>
+												</a>
+											</li>	
+											<li class="rounded-circle"><a href="www.facebook.com">
+												<i class=" ic fab fa-linkedin-in"></i>
+											</li>
+									</ul>
+								</div>
+										<p class="text-center"> 
+											©Copyright | WorldPandaria 2018. All Right Reserved
+											Developed By MotoCMS
+										</p>
+							</div>
+						</div>
+			</footer>
+	</body>
+</html>

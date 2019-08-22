@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>GAME</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+    <script src="js/jquery-latest.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+</head>
+<body>
+<header class="banner">
+		<nav class="navbar fixed-top navbar-expand-lg">
+					  <a class="navbar-brand" href="#"><img src="images/logo2.png"></a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+				  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+					    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 container">
+					      <li class="nav-item active">
+					        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="about.html">About</a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link " href="contacts.html">Contact Us</a>
+					      </li>
+					     
+					      <li class="nav-item">
+					        <a class="nav-link " href="gallery.html">Gallery</a>
+					      </li>
+					       <li class="nav-item">
+					        <a class="nav-link " href="faq.html">FAQ</a>
+					      </li>
+					       <li class="nav-item">
+					        <a class="nav-link " href="video.html">Videos</a>
+					      </li>
+					        <li class="nav-item">
+					        <a class="nav-link " href="price.html">Price</a>
+					      </li>
+					        <li class="nav-item">
+					        <a class="nav-link " href="match.html">Matches</a>
+					      </li>
+					       <li class="nav-item">
+					        <a class="nav-link " href="login.html">Log-In</a>
+					      </li>
+					    </ul>
+				  </div>
+		</nav>
+		<div class="container">
+							<h1 class="ml5 container">
+							    <span class="text-wrapper container">
+								    <span class="line line1"></span>
+								    <span class="letters letters-left">THE</span>
+								    <span class="letters ampersand">GAME</span>
+								    <span class="letters letters-right">SERVER</span>
+								    <span class="line line2"></span>	
+				  				</span>
+						  </h1>
+
+						  <h2 class="text2">Welcome to WorldPandaria</h2>
+						  <h3 class="text3">Join our clan in World of Warcraft</h3>
+						 	 <div class="btn1">
+							  <a class="BTN" href="#">JOIN US</a>
+							</div>
+			</div>
+				<script >
+					anime.timeline({loop: true})
+				  .add({
+				    targets: '.ml5 .line',
+				    opacity: [0.5,1],
+				    scaleX: [0, 1],
+				    easing: "easeInOutExpo",
+				    duration: 700
+				  }).add({
+				    targets: '.ml5 .line',
+				    duration: 600,
+				    easing: "easeOutExpo",
+				    translateY: function(e, i, l) {
+				      var offset = -0.625 + 0.625*2*i;
+				      return offset + "em";
+				    }
+				  }).add({
+				    targets: '.ml5 .ampersand',
+				    opacity: [0,1],
+				    scaleY: [0.5, 1],
+				    easing: "easeOutExpo",
+				    duration: 600,
+				    offset: '-=600'
+				  }).add({
+				    targets: '.ml5 .letters-left',
+				    opacity: [0,1],
+				    translateX: ["0.5em", 0],
+				    easing: "easeOutExpo",
+				    duration: 600,
+				    offset: '-=300'
+				  }).add({
+				    targets: '.ml5 .letters-right',
+				    opacity: [0,1],
+				    translateX: ["-0.5em", 0],
+				    easing: "easeOutExpo",
+				    duration: 600,
+				    offset: '-=600'
+				  }).add({
+				    targets: '.ml5',
+				    opacity: 0,
+				    duration: 1000,
+				    easing: "easeOutExpo",
+				    delay: 1000
+				  });
+				</script>
+		</header>
+		
+		<div class="container aboutus">
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="server1">About server</h3>
+					<hr class="moto-widget-divider-line" style="max-width:100%;width:11%">
+					  <div class="animation-element slide-left testimonial">
+							<p>Our server is one of the most popular places in the world, where hundreds of thousands of players from different countries enjoy playing World of Warcraft. There are two benefits from using our server:</p>
+							<div class="firstarrow">
+								<i class="fas fa-arrow-right right1"></i>
+								<p class="arrowpara">It is free of charge. We take care of all fees, so you can play your<span class="equal"> favorite MMORPG at absolutely no charge. Forever.</span></p>
+							</div>
+
+							<div class="secondarrow">
+								<i class="fas fa-arrow-right right1"></i>
+								<p class="arrowpara">It is free of charge. We take care of all fees, so you can play your<span class="equal"> favorite MMORPG at absolutely no charge. Forever.</span></p>
+							</div>
+
+							<div class="btn2">
+								<a class="btn3" href="#">JOIN US</a>
+							</div>
+					</div>
+				</div>
+				<div class="col-md-6 img3 clear">
+					  <div class="animation-element slide-left testimonial">
+						<img src="images/1.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+		    <script >
+		    	/*Interactivity to determine when an animated element in in view. In view elements trigger our animation*/
+				$(document).ready(function() {
+
+				  //window and animation items
+				  var animation_elements = $.find('.animation-element');
+				  var web_window = $(window);
+
+				  //check to see if any animation containers are currently in view
+				  function check_if_in_view() {
+				    //get current window information
+				    var window_height = web_window.height();
+				    var window_top_position = web_window.scrollTop();
+				    var window_bottom_position = (window_top_position + window_height);
+
+				    //iterate through elements to see if its in view
+				    $.each(animation_elements, function() {
+
+				      //get the element sinformation
+				      var element = $(this);
+				      var element_height = $(element).outerHeight();
+				      var element_top_position = $(element).offset().top;
+				      var element_bottom_position = (element_top_position + element_height);
+
+				      //check to see if this current container is visible (its viewable if it exists between the viewable space of the viewport)
+				      if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+				        element.addClass('in-view');
+				      } else {
+				        element.removeClass('in-view');
+				      }
+				    });
+
+				  }
+
+				  //on or scroll, detect elements in view
+				  $(window).on('scroll resize', function() {
+				      check_if_in_view()
+				    })
+				    //trigger our scroll event on initial load
+				  $(window).trigger('scroll');
+
+				});
+		    </script>
+  </div>
+  <div class="part4 ">
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-5 img2 ">
+						<img src="images/102.jpg">
+				</div>
+  		<div class="col-md-7 img3 ">
+  			
+  			  <p class="moto-text_system_7">Start your battle in World of Warcraft</p>
+  			  <hr class="moto-widget-divider-line" style="max-width:100%;width:11%;margin-left: 27px;">
+  			  <p class="moto-text_system_10">Get the game client and join the incredible World of Warcraft. Once you install the game, follow the instructions to launch to our server. Thank you for choosing us. We hope you enjoy.</p>
+  			  <div class="btn2">
+								<a class="btn3" href="#">READ MORE</a>
+				</div>
+  			  </div>
+  		</div>
+  		
+
+  </div>
+</div>
+	<div class="part5">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+				  <div class="content sub">
+					    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						      <div class="content-overlay"></div>
+						      <img class="content-image" src="images/9.jpg">
+						      <div class="content-details fadeIn-right">
+						      	<i class="search fas fa-search"></i>
+						        <p class="searchline">EXPLORE THE GAMING WORLD</p>
+						       
+						      </div>
+		  			  </a>
+ 				  </div>
+			  </div>
+				<div class="col-md-4">
+					 <div class="content sub">
+					    <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+					      <div class="content-overlay"></div>
+					      <img class="content-image" src="images/55.jpg">
+					      <div class="content-details fadeIn-right">
+					      	<i class="search fas fa-search"></i>
+						        <p class="searchline">EXPLORE THE GAMING WORLD</p>
+					      </div>
+			    		</a>
+			 		 </div>
+				</div>
+				<div class="col-md-4">
+					  <div class="content sub">
+				  		  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						      <div class="content-overlay"></div>
+						      <img class="content-image" src="images/99.jpg">
+						      <div class="content-details fadeIn-right">
+						      	<i class="search fas fa-search"></i>
+						        <p class="searchline">EXPLORE THE GAMING WORLD</p>
+						      </div>
+	  					  </a>
+					  </div>
+				 </div>
+				 	<div class="col-md-4 sub">
+					  <div class="content">
+				  		  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						      <div class="content-overlay"></div>
+						      <img class="content-image" src="images/12.jpg">
+						      <div class="content-details fadeIn-right">
+						      	<i class="search fas fa-search"></i>
+						        <p class="searchline">EXPLORE THE GAMING WORLD</p>
+						      </div>
+	  					  </a>
+					  </div>
+				 </div>
+				 	<div class="col-md-4 sub">
+					  <div class="content">
+				  		  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						      <div class="content-overlay"></div>
+						      <img class="content-image" src="images/7.jpg">
+						      <div class="content-details fadeIn-right">
+						      	<i class="search fas fa-search"></i>
+						        <p class="searchline">EXPLORE THE GAMING WORLD</p>
+						      </div>
+	  					  </a>
+					  </div>
+				 </div>
+				 	<div class="col-md-4 sub">
+					  <div class="content">
+				  		  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						      <div class="content-overlay"></div>
+						      <img class="content-image" src="images/5.jpg">
+						      <div class="content-details fadeIn-right">
+						      	<i class="search fas fa-search"></i>
+						        <p class="searchline">EXPLORE THE GAMING WORLD</p>
+						      </div>
+	  					  </a>
+					  </div>
+				 </div>
+				 	<div class="col-md-4 sub">
+					  <div class="content">
+				  		  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						      <div class="content-overlay"></div>
+						      <img class="content-image" src="images/6.jpg">
+						      <div class="content-details fadeIn-right">
+						      	<i class="search fas fa-search"></i>
+						        <p class="searchline">EXPLORE THE GAMING WORLD</p>
+						      </div>
+	  					  </a>
+					  </div>
+				 </div>
+				 	 	<div class="col-md-4 sub">
+					  <div class="content">
+				  		  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						      <div class="content-overlay"></div>
+						      <img class="content-image" src="images/10.jpg">
+						      <div class="content-details fadeIn-right">
+						      	<i class="search fas fa-search"></i>
+						        <p class="searchline">EXPLORE THE GAMING WORLD</p>
+						      </div>
+	  					  </a>
+					  </div>
+				 </div>
+				 	<div class="col-md-4 sub">
+					  <div class="content">
+				  		  <a href="https://unsplash.com/photos/HkTMcmlMOUQ" target="_blank">
+						      <div class="content-overlay"></div>
+						      <img class="content-image" src="images/55.jpg">
+						      <div class="content-details fadeIn-right">
+						      	<i class="search fas fa-search"></i>
+						        <p class="searchline">EXPLORE THE GAMING WORLD</p>
+						      </div>
+	  					  </a>
+					  </div>
+				 </div>
+		    </div>
+	   </div>
+	</div>
+	<div class="pricing">
+		<div class="container">
+			   <p style="text-align: center;" class="moto-text_system_71">Pricing Table<br></p>
+			  <div class="row">
+				    <div class="col-sm-12 col-md-4">
+				      <div class="well">
+				       <p style="text-align: center;" class="moto-text_system_8">x100<br></p>
+				        <p style="text-align: center;" class="moto-text_system_10">Get your benefit from playing the most popular MMORPG.<br></p>
+					     <p style="text-align: center;" class="moto-text_system_6">$4.99</p>
+					     <p style="text-align: center;" class="moto-text_system_111">per mouth</p>
+					     <a class="buy2" href="www.paytm.com">BUY NOW</a>
+				      </div>
+				    </div>
+				    <div class="col-sm-12 col-md-4">
+				      <div class="well">
+				         <p style="text-align: center;" class="moto-text_system_8">FUN<br></p>
+				        <p style="text-align: center;" class="moto-text_system_10">Save more with this special plan that gives you more advantages.<br></p>
+					     <p style="text-align: center;" class="moto-text_system_6">$5.99</p>
+					     <p style="text-align: center;" class="moto-text_system_111">per mouth</p>
+					     <a class="buy2" href="www.paytm.com">BUY NOW</a>
+				      </div>        
+				    </div>
+				    <div class="col-sm-12 col-md-4">
+				      <div class="well">
+				        <p style="text-align: center;" class="moto-text_system_8">CROSS<br></p>
+				        <p style="text-align: center;" class="moto-text_system_10">Make you of this pricing option to expand your skills in the game.<br></p>
+					     <p style="text-align: center;" class="moto-text_system_6">$7.99</p>
+					     <p style="text-align: center;" class="moto-text_system_111">per mouth</p>
+					     <a class="buy2" href="www.paytm.com">BUY NOW</a>
+				      </div>        
+				    </div>
+			  </div>
+		</div>
+	</div>
+		<div class="list">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+							<p style="text-align: center;" class="moto-text_system_6">2879</p>
+							<hr class="moto-widget-divider-line" style="max-width:100%;width:20%; text-align: center;margin: 0 auto;display: table;">
+							<p style="text-align: center;" class="moto-text_system_10">New players per day</p>
+					</div>
+						<div class="col-md-3">
+							<p style="text-align: center;" class="moto-text_system_6">30K</p>
+							<hr class="moto-widget-divider-line" style="max-width:100%;width:20%; text-align: center;margin: 0 auto;display: table;">
+							<p style="text-align: center;" class="moto-text_system_10">Players online</p>
+						</div>
+						<div class="col-md-3">
+							<p style="text-align: center;" class="moto-text_system_6">120</p>
+							<hr class="moto-widget-divider-line" style="max-width:100%;width:20%; text-align: center;margin: 0 auto;display: table;">
+							<p style="text-align: center;" class="moto-text_system_10">Months since the launch</p>
+						</div>
+						<div class="col-md-3">
+							<p style="text-align: center;" class="moto-text_system_6">500k</p>
+							<hr class="moto-widget-divider-line" style="max-width:100%;width:20%; text-align: center;margin: 0 auto;display: table;">
+							<p style="text-align: center;" class="moto-text_system_10">Unique players</p>
+						</div>
+				</div>
+			</div>
+		</div>
+		<div class="orange">
+			<div class="container">
+				<div class="row">
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p1.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p2.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p3.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p4.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p5.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p6.png"></a>
+				</div>
+		</div>
+	</div>
+</div>
+		<div class="latsecond">
+			<div class="container ">
+				<h3 class="server2">Our News</h3>
+				<hr class="moto-widget-divider-line" style="max-width:100%;width:11%;margin-left: 44%;margin-bottom: 40px;">
+				<div class="row">
+					<div class="col-md-4">
+						<img src="images/100.jpg">
+
+						<p>JULY 20,2017</p>
+						<span class="date">Changelog #19 for 5.4.8 on 2017-07-9</span>
+						<p>The new improvements of our server made the gaming process much more convenient if compared with the previous version.</p>
+						<a class="learn" href="#">Learn More</a>
+					</div>
+					<div class="col-md-4">
+						<img src="images/102.jpg">
+						<p>JULY 20,2017</p>
+						<span class="date">Changes to bonus system Control Panel</span>
+						<p>As you know, we encourage the most talented players on our server. Read and discover who will benefit from the re-developed.</p>
+						<a class="learn" href="#">Learn More</a>
+					</div>
+					<div class="col-md-4">
+						<img src="images/101.jpg">
+						<p>JULY 20,2017</p>
+							<span class="date">Changelog #19 for 5.4.8 on 2017-07-9</span>
+							<p>The upcoming update is about optimization. We fixed a lot of glitches that ruined the entire experience of our players.</p>
+							<a class="learn" href="#">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+<footer>
+	<div class="foot">
+		<div class="container">
+			<div class="lastlogo">
+				<a href="index.html"><img  src="images/logo.png"></a>
+			</div>
+
+			<div class="icons">
+				<ul>
+						<li class="rounded-circle">
+							<a href="www.facebook.com">
+							<i class=" ic fab fa-facebook-f"></i></a>
+						</li>	
+						
+						<li class="rounded-circle">
+							<a href="www.facebook.com">
+							<i class=" ic fab fa-twitter"></i>
+						</a>
+						</li>
+							
+						<li class="rounded-circle">
+							<a href="www.facebook.com">
+							<i class=" ic fab fa-instagram"></i>
+						</a>
+						</li>	
+						<li class="rounded-circle"><a href="www.facebook.com">
+							<i class=" ic fab fa-linkedin-in"></i>
+						</li></a>
+					</ul>
+			</ul>
+			</div>
+			<p class="text-center"> 
+	©Copyright | WorldPandaria 2018. All Right Reserved
+	Developed By MotoCMS</p>
+		</div>
+	</div>
+
+</footer>
+</html>

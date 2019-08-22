@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About </title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+    <script src="js/jquery-latest.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+
+</head>
+	<body>
+			<header class="banner2">
+				<nav class="navbar fixed-top navbar-expand-lg">
+							  <a class="navbar-brand" href="#"><img src="images/logo2.png"></a>
+							  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+							    <span class="navbar-toggler-icon"></span>
+							  </button>
+						  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+							    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 container">
+							      <li class="nav-item active">
+							        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link" href="about.html">About</a>
+							      </li>
+							      <li class="nav-item">
+							        <a class="nav-link " href="contacts.html">Contact Us</a>
+							      </li>
+							 
+							      <li class="nav-item">
+							        <a class="nav-link " href="gallery.html">Gallery</a>
+							      </li>
+							       <li class="nav-item">
+							        <a class="nav-link " href="faq.html">FAQ</a>
+							      </li>
+							       <li class="nav-item">
+							        <a class="nav-link " href="video.html">Videos</a>
+							      </li>
+							        <li class="nav-item">
+							        <a class="nav-link " href="price.html">Price</a>
+							      </li>
+							        <li class="nav-item">
+							        <a class="nav-link " href="match.html">Matches</a>
+							      </li>  
+							      <li class="nav-item">
+					       			 <a class="nav-link " href="login.html">Log-In</a>
+					      			</li>
+							    </ul>
+						  </div>
+				</nav>
+					<div class="bann">
+						<div class="container">
+							<p  class="wwwg">Welcome to WorldPandaria</p>
+							<p style="text-align: center;" class="moto-text_system_5">About our server<br></p>
+						</div>
+					</div>
+		</header>
+		<div class="container aboutus">
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="server1">About server</h3>
+					<hr class="moto-widget-divider-line" style="max-width:100%;width:11%">
+					  <div class="animation-element slide-left testimonial">
+							<p>Our server is one of the most popular places in the world, where hundreds of thousands of players from different countries enjoy playing World of Warcraft. There are two benefits from using our server:</p>
+							<div class="firstarrow">
+								<i class="fas fa-arrow-right right1"></i>
+								<p class="arrowpara">It is free of charge. We take care of all fees, so you can play your<span class="equal"> favorite MMORPG at absolutely no charge. Forever.</span></p>
+							</div>
+
+							<div class="secondarrow">
+								<i class="fas fa-arrow-right right1"></i>
+								<p class="arrowpara">It is free of charge. We take care of all fees, so you can play your<span class="equal"> favorite MMORPG at absolutely no charge. Forever.</span></p>
+							</div>
+
+							<div class="btn2">
+								<a class="btn3" href="#">JOIN US</a>
+							</div>
+					</div>
+				</div>
+				<div class="col-md-6 img3 clear">
+					  <div class="animation-element slide-left testimonial">
+						<img src="images/1.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+    </div>
+		    <script >
+		    	/*Interactivity to determine when an animated element in in view. In view elements trigger our animation*/
+				$(document).ready(function() {
+
+				  //window and animation items
+				  var animation_elements = $.find('.animation-element');
+				  var web_window = $(window);
+
+				  //check to see if any animation containers are currently in view
+				  function check_if_in_view() {
+				    //get current window information
+				    var window_height = web_window.height();
+				    var window_top_position = web_window.scrollTop();
+				    var window_bottom_position = (window_top_position + window_height);
+
+				    //iterate through elements to see if its in view
+				    $.each(animation_elements, function() {
+
+				      //get the element sinformation
+				      var element = $(this);
+				      var element_height = $(element).outerHeight();
+				      var element_top_position = $(element).offset().top;
+				      var element_bottom_position = (element_top_position + element_height);
+
+				      //check to see if this current container is visible (its viewable if it exists between the viewable space of the viewport)
+				      if ((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)) {
+				        element.addClass('in-view');
+				      } else {
+				        element.removeClass('in-view');
+				      }
+				    });
+
+				  }
+
+				  //on or scroll, detect elements in view
+				  $(window).on('scroll resize', function() {
+				      check_if_in_view()
+				    })
+				    //trigger our scroll event on initial load
+				  $(window).trigger('scroll');
+
+				});
+		    </script>
+  </div>
+  	<div class="list">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+							<p style="text-align: center;" class="moto-text_system_6">2879</p>
+							<hr class="moto-widget-divider-line" style="max-width:100%;width:20%; text-align: center;margin: 0 auto;display: table;">
+							<p style="text-align: center;" class="moto-text_system_10">New players per day</p>
+					</div>
+						<div class="col-md-3">
+							<p style="text-align: center;" class="moto-text_system_6">30K</p>
+							<hr class="moto-widget-divider-line" style="max-width:100%;width:20%; text-align: center;margin: 0 auto;display: table;">
+							<p style="text-align: center;" class="moto-text_system_10">Players online</p>
+						</div>
+						<div class="col-md-3">
+							<p style="text-align: center;" class="moto-text_system_6">120</p>
+							<hr class="moto-widget-divider-line" style="max-width:100%;width:20%; text-align: center;margin: 0 auto;display: table;">
+							<p style="text-align: center;" class="moto-text_system_10">Months since the launch</p>
+						</div>
+						<div class="col-md-3">
+							<p style="text-align: center;" class="moto-text_system_6">500k</p>
+							<hr class="moto-widget-divider-line" style="max-width:100%;width:20%; text-align: center;margin: 0 auto;display: table;">
+							<p style="text-align: center;" class="moto-text_system_10">Unique players</p>
+						</div>
+				</div>
+			</div>
+		</div>
+				<div class="orange">
+			<div class="container">
+				<div class="row">
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p1.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p2.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p3.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p4.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p5.png"></a>
+				</div>
+				<div class="col-md-2 logo1">
+					<a href="#"><img class="log" src="images/p6.png"></a>
+				</div>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="foot">
+		<div class="container">
+			<div class="lastlogo">
+				<a href="index.html"><img  src="images/logo.png"></a>
+			</div>
+
+			<div class="icons">
+				<ul>
+						<li class="rounded-circle">
+							<a href="www.facebook.com">
+							<i class=" ic fab fa-facebook-f"></i></a>
+						</li>	
+						
+						<li class="rounded-circle">
+							<a href="www.facebook.com">
+							<i class=" ic fab fa-twitter"></i>
+						</a>
+						</li>
+							
+						<li class="rounded-circle">
+							<a href="www.facebook.com">
+							<i class=" ic fab fa-instagram"></i>
+						</a>
+						</li>	
+						<li class="rounded-circle"><a href="www.facebook.com">
+							<i class=" ic fab fa-linkedin-in"></i>
+						</li></a>
+					</ul>
+			</ul>
+			</div>
+			<p class="text-center"> 
+	©Copyright | WorldPandaria 2018. All Right Reserved
+	Developed By MotoCMS</p>
+		</div>
+	</div>
+
+</footer>
+	</body>
+	</html>
